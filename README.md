@@ -1,4 +1,4 @@
-<h1 align="center"><b>👉𝐑𝐨𝐦𝐞𝐨𝐗𝐦𝐮𝐬𝐢𝐜𝐁𝐨𝐭👈</b></h1>
+<h1 align="center"><b>𝐑𝐨𝐦𝐞𝐨𝐗𝐦𝐮𝐬𝐢𝐜𝐁𝐨𝐭</b></h1>
 
 <h4 align="center">Romeo A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
