@@ -1,6 +1,6 @@
 <h1 align="center"><b>👉𝐑𝐨𝐦𝐞𝐨𝐗𝐦𝐮𝐬𝐢𝐜𝐁𝐨𝐭👈</b></h1>
 
-<h4 align="center">Shizuka A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
+<h4 align="center">Romeo A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
 <p align="center"><a href="https://telegram.dog/its_star_boi"><img src="https://www.linkpicture.com/q/IMG_20230311_045008_322.jpg" width="400"></a></p>
 
