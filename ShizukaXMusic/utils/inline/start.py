@@ -16,17 +16,17 @@ def start_pannel(_):
             InlineKeyboardButton(text=_["S_B_2"], callback_data="settings_helper"),
         ],
     ]
-    if SUPPORT_CHANNEL and SUPPORT_GROUP:
+    if CHAT_GROUP and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/Hindichat_House"),
                 InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/eXmusicSupport"),
             ]
         )
     else:
-        if SUPPORT_CHANNEL:
+        if  CHAT_GROUP:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/Hindichat_House")]
             )
         if SUPPORT_GROUP:
             buttons.append(
@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [InlineKeyboardButton(text=_["S_B_8"], callback_data="settings_back_helper")]
     ]
-    if SUPPORT_CHANNEL and SUPPORT_GROUP:
+    if CHAT_GROUPand SUPPORT_GROUP:
         buttons.append(
             [
                 InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
@@ -47,7 +47,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ]
         )
     else:
-        if SUPPORT_CHANNEL:
+        if CHAT_GROUP:
             buttons.append(
                 [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
             )
