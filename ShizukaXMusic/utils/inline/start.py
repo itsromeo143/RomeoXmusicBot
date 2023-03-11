@@ -19,7 +19,7 @@ def start_pannel(_):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{https://t.me/eXmusicSupport"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/eXmusicSupport"),
                 InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/Hindichat_House"),
             ]
         )
