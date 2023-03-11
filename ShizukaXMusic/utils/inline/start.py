@@ -16,21 +16,21 @@ def start_pannel(_):
             InlineKeyboardButton(text=_["S_B_2"], callback_data="settings_helper"),
         ],
     ]
-    if CHAT_GROUP and SUPPORT_GROUP:
+    if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/Hindichat_House"),
-                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/eXmusicSupport"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"{https://t.me/eXmusicSupport"),
+                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/Hindichat_House"),
             ]
         )
     else:
-        if  CHAT_GROUP:
+        if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/Hindichat_House")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/eXmusicSupport")]
             )
         if SUPPORT_GROUP:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_3"], url=f"{https://t.me/eXmusicSupport}")]
+                [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/Hindichat_House")]
             )
     return buttons
 
@@ -39,21 +39,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [InlineKeyboardButton(text=_["S_B_8"], callback_data="settings_back_helper")]
     ]
-    if CHAT_GROUPand SUPPORT_GROUP:
+    if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
-                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/eXmusicSupport"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/eXmusicSupport"),
+                InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/Hindichat_House"),
             ]
         )
     else:
-        if CHAT_GROUP:
+        if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/eXmusicSupport")]
             )
         if SUPPORT_GROUP:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_3"], url=f"{https://t.me/eXmusicSupport}")]
+                [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/Hindichat_House")]
             )
     buttons.append(
         [
