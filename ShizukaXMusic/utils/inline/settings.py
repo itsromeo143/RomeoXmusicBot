@@ -20,7 +20,7 @@ def setting_markup(_):
         [
             InlineKeyboardButton(
                 text="• Sᴜᴩᴩᴏʀᴛ •",
-                url=f"{SUPPORT_GROUP}",
+                url=f"https://t.me/eXmusicSupport",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
