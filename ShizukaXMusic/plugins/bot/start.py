@@ -270,13 +270,13 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", "Shizuka"]) & ~filters.edited)
+@app.on_message(commandpro(["/alive", "Romeo"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://www.linkpicture.com/q/IMG_20230312_002256_367.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, {MUSIC_BOT_NAME} ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/itsromeo4u) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 Hindi CHAT HOUSE 💮", url=f"https://t.me/hindichat_house")]]
+            [[InlineKeyboardButton("💮𝐻𝒾𝓃𝒹𝒾 𝒸𝒽𝒶𝓉 𝐻𝑜𝓊𝓈𝑒 🏠", url=f"https://t.me/hindichat_house")]]
         ),
     )
